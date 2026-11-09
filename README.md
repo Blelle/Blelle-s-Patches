@@ -1,12 +1,10 @@
-# 👋🧩 Morphe Patches template
+# 🧩 Blelle's Patches
 
-Template repository for Morphe Patches.
+Ad-free patches for TimeTree: Shared Calendar (`works.jubilee.timetree`).
 
-## ❓ About
+## ℹ️ About
 
-Patches for apps I like.
-
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+Custom patch bundle for TimeTree to completely eliminate all advertisements (monthly headline banner, activities headline, event creation ads, daily ads, and splash interstitials) and activate ad-free premium mode.
 
 ### How to use these patches
 
@@ -19,24 +17,7 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
-<details open>
-<summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**Package name:** `com.example.app`
-
-**🎯 Supported versions:**
-
-| 2.0.0 | 1.0.2 |
-| :---: | :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Example Patch](#example-patch) | Example patch to start with. |  |
-
-</details>
-
+> **[v1.0.1](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patch total
 <details open>
 <summary>📦 TimeTree: Shared Calendar&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -67,4 +48,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Blelle's Patches are licensed under the [GNU General Public License v3.0](LICENSE)
