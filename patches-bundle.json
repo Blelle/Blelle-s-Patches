@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T14:06:25",
-  "description": "## [1.0.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.0...v1.0.1) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* remove files from root ([902658c](https://github.com/Blelle/Blelle-s-Patches/commit/902658cb0b655797ef5d0c493f7ffea3a69f8b4b))",
-  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "created_at": "2026-11-09T14:14:52",
+  "description": "## [1.1.0-dev.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.1...v1.1.0-dev.1) (2026-11-09)\n\n### ✨ New Features\n\n* configure timetree patches and remove example template ([0ee38fd](https://github.com/Blelle/Blelle-s-Patches/commit/0ee38fd94951c5195a5cd4cbbe57b9369ca8f089))",
+  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.1.0-dev.1/patches-1.1.0-dev.1.mpp",
   "signature_download_url": "",
-  "version": "1.0.1"
+  "version": "1.1.0-dev.1"
 }

@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.1...v1.1.0-dev.1) (2026-11-09)
+
+### ✨ New Features
+
+* configure timetree patches and remove example template ([0ee38fd](https://github.com/Blelle/Blelle-s-Patches/commit/0ee38fd94951c5195a5cd4cbbe57b9369ca8f089))
+
 ## [1.0.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.0...v1.0.1) (2026-11-09)
 
 ### 🐛 Bug Fixes
