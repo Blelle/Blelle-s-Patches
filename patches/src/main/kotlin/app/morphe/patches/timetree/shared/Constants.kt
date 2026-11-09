@@ -13,10 +13,6 @@ object Constants {
         targets = listOf(
             AppTarget(
                 version = "15.34.1"
-            ),
-            AppTarget(
-                version = null,
-                isExperimental = true
             )
         )
     )
