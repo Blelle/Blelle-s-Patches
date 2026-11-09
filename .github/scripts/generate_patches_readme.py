@@ -64,28 +64,43 @@ by_pkg = {}   # (packageName, formFactor) -> { name, package, emoji, patches, ta
 universal = {}
 
 for patch in data["patches"]:
-    cp = patch.get("compatiblePackages")
+    cp = patch.get("compatibility") or patch.get("compatiblePackages")
     if not cp:
-        # Deduplicate universal patches by name
         if patch["name"] not in universal:
             universal[patch["name"]] = patch
         continue
-    for pkg_entry in cp:
-        pkg  = pkg_entry["packageName"]
-        name = pkg_entry.get("name") or pkg  # fall back to package name if no label
-        form_factor = pkg_entry.get("formFactor")
-        key  = (pkg, form_factor)
-        if key not in by_pkg:
-            by_pkg[key] = {
-                "name":    pkg_label(name, form_factor),
-                "package": pkg,
-                "emoji":   pkg_emoji(form_factor),
-                "patches": {},
-                "targets": pkg_entry.get("targets", []),
-            }
-        # Deduplicate patches that appear across multiple packages
-        if patch["name"] not in by_pkg[key]["patches"]:
-            by_pkg[key]["patches"][patch["name"]] = patch
+    if isinstance(cp, dict):
+        for pkg, versions in cp.items():
+            name = (data.get("appNames") or {}).get(pkg, pkg)
+            targets = [{"version": v} for v in (versions or [])]
+            key = (pkg, None)
+            if key not in by_pkg:
+                by_pkg[key] = {
+                    "name":    name,
+                    "package": pkg,
+                    "emoji":   "📦",
+                    "patches": {},
+                    "targets": targets,
+                }
+            if patch["name"] not in by_pkg[key]["patches"]:
+                by_pkg[key]["patches"][patch["name"]] = patch
+    elif isinstance(cp, list):
+        for pkg_entry in cp:
+            if isinstance(pkg_entry, dict):
+                pkg  = pkg_entry.get("packageName")
+                name = pkg_entry.get("name") or (data.get("appNames") or {}).get(pkg, pkg)
+                form_factor = pkg_entry.get("formFactor")
+                key  = (pkg, form_factor)
+                if key not in by_pkg:
+                    by_pkg[key] = {
+                        "name":    pkg_label(name, form_factor),
+                        "package": pkg,
+                        "emoji":   pkg_emoji(form_factor),
+                        "patches": {},
+                        "targets": pkg_entry.get("targets", []),
+                    }
+                if patch["name"] not in by_pkg[key]["patches"]:
+                    by_pkg[key]["patches"][patch["name"]] = patch
 
 
 def anchor(name):
@@ -244,4 +259,4 @@ new_readme = re.sub(
     flags=re.DOTALL,
 )
 readme_path.write_text(new_readme, encoding="utf-8")
-print(f"✅ Injected patches section into {readme_path} (v{ver}, branch={branch}, {total} patches, expanded={expanded})")
+print(f"[OK] Injected patches section into {readme_path} (v{ver}, branch={branch}, {total} patches, expanded={expanded})")

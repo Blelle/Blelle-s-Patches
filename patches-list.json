@@ -1,28 +1,32 @@
 {
-  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
   "version": "1.1.2",
+  "appNames": {
+    "works.jubilee.timetree": "TimeTree: Shared Calendar"
+  },
   "patches": [
     {
       "name": "Hide ads",
       "description": "Completely removes all ads (calendar headlines, activities banner, event creation ads, daily ads, and splash interstitials) and unlocks premium ad-free mode.",
-      "default": true,
-      "category": null,
-      "compatiblePackages": [
+      "category": "Ads",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "works.jubilee.timetree": [
+          "15.34.1"
+        ]
+      },
+      "compatibility": [
         {
-          "packageName": "works.jubilee.timetree",
           "name": "TimeTree: Shared Calendar",
+          "packageName": "works.jubilee.timetree",
           "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#22C55E",
+          "appIconColor": 2278750,
           "signatures": null,
-          "formFactor": "MOBILE",
           "targets": [
             {
               "version": "15.34.1",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
+              "experimental": false,
+              "versionCodes": null
             }
           ]
         }
