@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T14:14:48",
-  "description": "## [1.1.0](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.1...v1.1.0) (2026-11-09)\n\n### ✨ New Features\n\n* configure timetree patches and remove example template ([0ee38fd](https://github.com/Blelle/Blelle-s-Patches/commit/0ee38fd94951c5195a5cd4cbbe57b9369ca8f089))\n* merge dev into main ([1ac31bc](https://github.com/Blelle/Blelle-s-Patches/commit/1ac31bc2d253f77b6da841a00552a4e19b6baef3))",
-  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-11-09T14:24:38",
+  "description": "## [1.1.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.0...v1.1.1) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* change apkFileType to APK for full compatibility ([a668b68](https://github.com/Blelle/Blelle-s-Patches/commit/a668b6889c165488c9a4f93c9d910ce751b0a846))\n* change apkFileType to APK for full compatibility ([7e6de69](https://github.com/Blelle/Blelle-s-Patches/commit/7e6de6979ede7e6ef80b2a803882bb0e63c6a9a5))",
+  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.1.1/patches-1.1.1.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
