@@ -39,18 +39,7 @@ val hideAdsPatch = patch(
             )
         }
 
-        // 3. Disable 3rd-party mediated Ad SDK initialization
-        AdSdkInitializerFingerprint.method.apply {
-            replaceInstruction(
-                0,
-                """
-                    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
-                    return-object v0
-                """
-            )
-        }
-
-        // 4. Cleanly dismiss SplashAdsActivity on cold-start
+        // 3. Cleanly dismiss SplashAdsActivity on cold-start
         SplashAdsActivityFingerprint.method.apply {
             addInstructions(
                 0,

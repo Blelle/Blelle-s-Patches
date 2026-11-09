@@ -20,14 +20,6 @@ internal object PremiumManagerSetEnabledFingerprint : Fingerprint(
     )
 )
 
-internal object AdSdkInitializerFingerprint : Fingerprint(
-    returnType = "Ljava/lang/Object;",
-    parameters = listOf("Z", "Lhmh;", "Lra4;"),
-    filters = listOf(
-        string("openwrap")
-    )
-)
-
 internal object SplashAdsActivityFingerprint : Fingerprint(
     definingClass = "Lworks/jubilee/timetree/app/ui/SplashAdsActivity;",
     name = "onCreate",
