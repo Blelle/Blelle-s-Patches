@@ -17,7 +17,7 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.3](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.1.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.1.4](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.1.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
 <summary>📦 TimeTree: Shared Calendar&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>

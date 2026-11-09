@@ -1,3 +1,9 @@
+## [1.1.4](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.3...v1.1.4) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* remove fragile AdSdkInitializerFingerprint to ensure compatibility across all architectures ([10e68a5](https://github.com/Blelle/Blelle-s-Patches/commit/10e68a5f18c9fb256e82f2accb9e2c96a49ef284))
+
 ## [1.1.3](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.2...v1.1.3) (2026-11-09)
 
 ### 🐛 Bug Fixes
