@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-09T14:24:38",
-  "description": "## [1.1.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.0...v1.1.1) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* change apkFileType to APK for full compatibility ([a668b68](https://github.com/Blelle/Blelle-s-Patches/commit/a668b6889c165488c9a4f93c9d910ce751b0a846))\n* change apkFileType to APK for full compatibility ([7e6de69](https://github.com/Blelle/Blelle-s-Patches/commit/7e6de6979ede7e6ef80b2a803882bb0e63c6a9a5))",
-  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.1.1/patches-1.1.1.mpp",
+  "created_at": "2026-11-09T14:32:00",
+  "description": "## [1.1.2](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.1...v1.1.2) (2026-11-09)\n\n### 🐛 Bug Fixes\n\n* set 15.34.1 as the single suggested target version ([ade3d7a](https://github.com/Blelle/Blelle-s-Patches/commit/ade3d7abcc3c7e68ee80a96b8f1d3db2db90d4d3))\n* set 15.34.1 as the single suggested target version ([36b4514](https://github.com/Blelle/Blelle-s-Patches/commit/36b4514fc3de1d27cb311cc7450cb2d286e90b09))",
+  "download_url": "https://github.com/Blelle/Blelle-s-Patches/releases/download/v1.1.2/patches-1.1.2.mpp",
   "signature_download_url": "",
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
