@@ -35,6 +35,40 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Hide ads",
+      "description": "Completely removes all ads (calendar headlines, activities banner, event creation ads, daily ads, and splash interstitials) and unlocks premium ad-free mode.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "works.jubilee.timetree",
+          "name": "TimeTree: Shared Calendar",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#22C55E",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "15.34.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
     }
   ]
 }

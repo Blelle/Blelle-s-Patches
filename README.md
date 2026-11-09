@@ -19,7 +19,7 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1-dev.1](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.0.1-dev.1](https://github.com/Blelle/Blelle-s-Patches/releases/tag/v1.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -34,6 +34,23 @@ Click the button below, or manually add this repo url to Morphe Manager: https:/
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Example Patch](#example-patch) | Example patch to start with. |  |
+
+</details>
+
+<details open>
+<summary>📦 TimeTree: Shared Calendar&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**Package name:** `works.jubilee.timetree`
+
+**🎯 Supported versions:**
+
+| 15.34.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Hide ads](#hide-ads) | Completely removes all ads (calendar headlines, activities banner, event creation ads, daily ads, and splash interstitials) and unlocks premium ad-free mode. |  |
 
 </details>
 
