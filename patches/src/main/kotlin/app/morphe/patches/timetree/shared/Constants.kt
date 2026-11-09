@@ -8,7 +8,7 @@ object Constants {
     val COMPATIBILITY_TIMETREE = Compatibility(
         name = "TimeTree: Shared Calendar",
         packageName = "works.jubilee.timetree",
-        apkFileType = ApkFileType.XAPK,
+        apkFileType = ApkFileType.APK,
         appIconColor = 0x22C55E,
         targets = listOf(
             AppTarget(
