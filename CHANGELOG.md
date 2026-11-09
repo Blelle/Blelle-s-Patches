@@ -1,3 +1,9 @@
+## [1.1.1-dev.2](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.1-dev.1...v1.1.1-dev.2) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* set 15.34.1 as the single suggested target version ([fcd7641](https://github.com/Blelle/Blelle-s-Patches/commit/fcd7641ee5b6eb5a8ee007ee35d7ae69ed39065b))
+
 ## [1.1.1-dev.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.0...v1.1.1-dev.1) (2026-11-09)
 
 ### 🐛 Bug Fixes
