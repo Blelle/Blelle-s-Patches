@@ -1,3 +1,9 @@
+## [1.1.1-dev.1](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.0...v1.1.1-dev.1) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* change apkFileType to APK for full compatibility ([7e6de69](https://github.com/Blelle/Blelle-s-Patches/commit/7e6de6979ede7e6ef80b2a803882bb0e63c6a9a5))
+
 ## [1.1.0](https://github.com/Blelle/Blelle-s-Patches/compare/v1.0.1...v1.1.0) (2026-11-09)
 
 ### ✨ New Features
