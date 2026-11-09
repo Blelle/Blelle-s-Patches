@@ -19,8 +19,6 @@ val hideAdsPatch = patch(
 
     execute {
         // 1. Force PremiumManager.e() to always return true (1)
-        // This causes HomeCalendarHeadlineViewModel and HomeActivitiesHeadlineViewModel
-        // to collapse ad banners, suppresses u4c ad loading, and sets isPremium = true in State.
         PremiumManagerIsEnabledFingerprint.method.apply {
             replaceInstruction(
                 0,
@@ -41,7 +39,7 @@ val hideAdsPatch = patch(
             )
         }
 
-        // 3. Disable 3rd-party mediated Ad SDK initialization (AdMob, AppLovin, Pangle, Facebook, Amazon, Moloco)
+        // 3. Disable 3rd-party mediated Ad SDK initialization
         AdSdkInitializerFingerprint.method.apply {
             replaceInstruction(
                 0,
