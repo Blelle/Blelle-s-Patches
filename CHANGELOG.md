@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.2...v1.1.3) (2026-11-09)
+
+### 🐛 Bug Fixes
+
+* adopt HushGram schema with root appNames and compatibility metadata for Morphe Manager ([2bec39d](https://github.com/Blelle/Blelle-s-Patches/commit/2bec39dcea24c827abca938f1fc90973f8a11a5f))
+
 ## [1.1.2](https://github.com/Blelle/Blelle-s-Patches/compare/v1.1.1...v1.1.2) (2026-11-09)
 
 ### 🐛 Bug Fixes
